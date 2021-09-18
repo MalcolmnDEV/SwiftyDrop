@@ -73,6 +73,17 @@ Just add to your Cartfile:
 github "morizotter/SwiftyDrop" ~> 4.0
 ```
 
+### Swift Package Manager
+
+The Swift Package Manager is a tool for automating the distribution of Swift code and is integrated into the swift compiler. It is in early development, but Alamofire does support its use on supported platforms.
+
+Once you have your Swift package set up, adding SwiftyDrop as a dependency is as easy as adding it to the dependencies value of your Package.swift.
+
+```dependencies: [
+.package(url: "https://github.com/MalcolmnDEV/SwiftyDrop", .upToNextMajor(from: "4.2.1"))
+]
+```
+
 ### Manual Installation
 
 To install SwiftyDrop without a dependency manager, please add all of the files in `/SwiftyDrop` to your Xcode Project.
